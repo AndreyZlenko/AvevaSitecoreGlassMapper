@@ -5,6 +5,7 @@ DO NOT CHANGE THIS FILE - UPDATE GlassMapperScCustom.cs
 
 **************************************/
 
+using Glass.Mapper;
 using Glass.Mapper.Maps;
 using Glass.Mapper.Sc.Configuration.Fluent;
 using Glass.Mapper.Sc.IoC;
@@ -12,9 +13,9 @@ using Sitecore.Pipelines;
 
 // WebActivator has been removed. If you wish to continue using WebActivator uncomment the line below
 // and delete the Glass.Mapper.Sc.CastleWindsor.config file from the Sitecore Config Include folder.
-// [assembly: WebActivatorEx.PostApplicationStartMethod(typeof(Aveva.Models.App_Start.GlassMapperSc), "Start")]
+// [assembly: WebActivatorEx.PostApplicationStartMethod(typeof(Aveva.Glass.Models.App_Start.GlassMapperSc), "Start")]
 
-namespace Aveva.Models.App_Start
+namespace Aveva.Glass.Models.App_Start
 {
 	public class  GlassMapperSc
 	{
@@ -28,7 +29,7 @@ namespace Aveva.Models.App_Start
 			var resolver = GlassMapperScCustom.CreateResolver();
 
 			//create a context
-			var context = Glass.Mapper.Context.Create(resolver);
+			var context = Context.Create(resolver);
 
 			LoadConfigurationMaps(resolver, context);
 
@@ -39,7 +40,7 @@ namespace Aveva.Models.App_Start
 			GlassMapperScCustom.PostLoad();
 		}
 
-        public static void LoadConfigurationMaps(IDependencyResolver resolver, Glass.Mapper.Context context)
+        public static void LoadConfigurationMaps(IDependencyResolver resolver, Context context)
         {
             var dependencyResolver = resolver as DependencyResolver;
             if (dependencyResolver == null)

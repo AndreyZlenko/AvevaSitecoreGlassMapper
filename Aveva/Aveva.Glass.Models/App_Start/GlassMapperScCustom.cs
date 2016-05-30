@@ -1,16 +1,17 @@
 #region GlassMapperScCustom generated code
+using Glass.Mapper.Sc;
 using Glass.Mapper.Configuration;
 using Glass.Mapper.IoC;
 using Glass.Mapper.Maps;
 using Glass.Mapper.Sc.IoC;
 using IDependencyResolver = Glass.Mapper.Sc.IoC.IDependencyResolver;
 
-namespace Aveva.Models.App_Start
+namespace Aveva.Glass.Models.App_Start
 {
     public static  class GlassMapperScCustom
     {
 		public static IDependencyResolver CreateResolver(){
-			var config = new Glass.Mapper.Sc.Config();
+			var config = new Config();
 
 			var dependencyResolver = new DependencyResolver(config);
 			// add any changes to the standard resolver here
