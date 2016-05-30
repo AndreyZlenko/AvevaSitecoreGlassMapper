@@ -1,0 +1,26 @@
+﻿---
+ID: "efc6c969-b3c5-4ccb-ae00-93be24a8ffc3"
+Parent: "fc348594-f1fb-479c-aa9d-b83de85155df"
+Template: "f78bce3b-30f5-4989-8d49-e5e23faa3593"
+Path: /sitecore/content/Site content/Events/Roadshow California
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "22f8fd3a-332c-4cf2-aeac-9c202ffc821b"
+      Hint: Content
+      Value: |
+        <a class="title" href="#">AVEVA FabTrol Steel Fabrication Roadshow - California, USA</a>
+        <p>Join AVEVA FabTrol for the Steel Fabrication Roadshow in California.</p>
+        <a class="more" title="See all events" href="#">More Events</a>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160526T205017Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: "ed2c2476-7cc3-4346-b2d8-366d140ac87d"
+      Hint: Topic
+      Value: Events
