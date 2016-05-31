@@ -1,29 +1,37 @@
-﻿using Aveva.Models;
+﻿using Aveva.Glass.Models;
+using Aveva.Models;
 using Aveva.Models.Content;
 using Aveva.Services;
-using Glass.Mapper.Sc.Web.Mvc;
+using Sitecore.Data;
+using Sitecore.Data.Items;
 using System.Collections.Generic;
 using System.Web.Mvc;
 
 namespace Aveva.Web.Controllers
 {
-    public class ContentController : GlassController
+    public class ContentController : Controller
     {
         public ActionResult Header()
         {
-            HeaderContentModel model = this.GetContextItem<HeaderContentModel>();
+            HeaderContentViewModel model = CommonMapper.MapItem<HeaderContentViewModel, HeaderContentGlassModel>(Sitecore.Context.Item);
             return View(model);
         }
 
         public ActionResult LeftNavigationBar()
         {
-            List<ItemLinkModel> model = ViewModelsMapper.MapLeftNavigationBar(Sitecore.Context.Item);
+            Item item = Sitecore.Context.Item;
+            if (item.TemplateID == ID.Parse(Constants.TemplatesIDs.DropdownItem))
+                item = item.Parent;
+
+            ItemLinkViewModel model = CommonMapper.MapItem<ItemLinkViewModel, ItemLinkGlassModel>(item);
+
             return View(model);
         }
 
         public ActionResult CentralColumn()
         {
-            List<BaseModel> model = ViewModelsMapper.MapContentColumn(Sitecore.Context.Item, ViewModelsMapper.Column.CENTAL);
+            ContentViewModel contentModel = CommonMapper.MapItem<ContentViewModel, ContentGlassModel>(Sitecore.Context.Item);
+            List<BaseViewModel> model = CommonMapper.MapContent(contentModel.CentralColumn);
             return View(model);
         }
     }

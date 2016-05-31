@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aveva.Web", "Aveva.Web\Aveva.Web.csproj", "{153719F4-0495-4A3B-9339-1D7358C46556}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aveva.Services", "Aveva.Services\Aveva.Services.csproj", "{8F80B3D5-D65C-4096-A4A4-F2F6A7C1CA7E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aveva.Glass.Models", "Aveva.Glass.Models\Aveva.Glass.Models.csproj", "{1720A2AE-27B1-46D8-9CAF-1D74E76232FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aveva.Constants", "Aveva.Constants\Aveva.Constants.csproj", "{D918618D-CD12-4525-AD04-81A88C4CB11B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{1720A2AE-27B1-46D8-9CAF-1D74E76232FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1720A2AE-27B1-46D8-9CAF-1D74E76232FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1720A2AE-27B1-46D8-9CAF-1D74E76232FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D918618D-CD12-4525-AD04-81A88C4CB11B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D918618D-CD12-4525-AD04-81A88C4CB11B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D918618D-CD12-4525-AD04-81A88C4CB11B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D918618D-CD12-4525-AD04-81A88C4CB11B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

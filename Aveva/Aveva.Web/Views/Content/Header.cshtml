@@ -1,10 +1,8 @@
 ﻿@using Aveva.Models
-@using Glass.Mapper.Sc
-@using Glass.Mapper.Sc.Web.Mvc
 @using Sitecore.Mvc.Presentation
-@model HeaderContentModel
+@model HeaderContentViewModel
 @{
 
 }
 
-<img src="@Model.Image.Src" alt="@Model.Image.Alt" id="header-content-img" />
+<img src="@Model.ImageUrl" alt="@Model.ImageAlt" id="header-content-img" />

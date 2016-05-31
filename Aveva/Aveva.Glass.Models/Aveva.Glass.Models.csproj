@@ -52,6 +52,9 @@
       <HintPath>C:\inetpub\wwwroot\AvevaGlass\Website\bin\Sitecore.Kernel.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Sitecore.Mvc">
+      <HintPath>..\..\..\..\..\inetpub\wwwroot\AvevaGlass\Website\bin\Sitecore.Mvc.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
@@ -86,20 +89,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="App_Start\GlassMapperSc.cs" />
-    <Compile Include="App_Start\GlassMapperScCustom.cs" />
-    <Compile Include="GFooterModel.cs" />
-    <Compile Include="GHeaderModel.cs" />
-    <Compile Include="GItemLinkModel.cs" />
-    <Compile Include="GHeaderContentModel.cs" />
+    <Compile Include="ContentGlassModel.cs" />
+    <Compile Include="Content\BoxGlassModel.cs" />
+    <Compile Include="Content\ListGlassModel.cs" />
+    <Compile Include="FooterGlassModel.cs" />
+    <Compile Include="HeaderGlassModel.cs" />
+    <Compile Include="ItemLinkGlassModel.cs" />
+    <Compile Include="HeaderContentGlassModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App_Config\Include\Glass.Mapper.Sc.CodeFirst.config.exclude" />
-    <None Include="App_Config\Include\Glass.Mapper.Sc.config" />
-    <None Include="App_Config\Include\Glass.Mapper.Sc.Start.config" />
-    <None Include="App_Config\Include\z.Glass.Mapper.Sc.ViewRender.config.exclude" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\Aveva.Constants\Aveva.Constants.csproj">
+      <Project>{d918618d-cd12-4525-ad04-81a88c4cb11b}</Project>
+      <Name>Aveva.Constants</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

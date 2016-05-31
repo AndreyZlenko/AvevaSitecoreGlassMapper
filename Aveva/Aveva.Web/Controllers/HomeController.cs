@@ -1,21 +1,21 @@
-﻿using Aveva.Models;
+﻿using Aveva.Glass.Models;
+using Aveva.Models;
 using Aveva.Services;
-using Glass.Mapper.Sc.Web.Mvc;
 using System.Web.Mvc;
 
 namespace Aveva.Web.Controllers
 {
-    public class HomeController : GlassController
+    public class HomeController : Controller
     {
         public ActionResult GetHeader()
         {
-            HeaderModel model = this.GetContextItem<HeaderModel>();
+            HeaderViewModel model = CommonMapper.MapItem<HeaderViewModel, HeaderGlassModel>(Sitecore.Context.Item);
             return View(model);
         }
 
         public ActionResult GetFooter()
         {
-            FooterModel model = this.GetContextItem<FooterModel>();
+            FooterViewModel model = CommonMapper.MapItem<FooterViewModel, FooterGlassModel>(Sitecore.Context.Item);
             return View(model);
         }
     }

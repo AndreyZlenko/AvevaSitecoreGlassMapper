@@ -1,11 +1,11 @@
 ﻿@using Aveva.Models
 @using Sitecore.Mvc.Presentation
-@model List<ItemLinkModel>
+@model ItemLinkViewModel
 @{
 
 }
 <ul class="left-navi">
-    @foreach (ItemLinkModel link in Model)
+    @foreach (ItemLinkViewModel link in Model.Items)
     {
         <li><a href="#" onclick="javascript: LoadContent('@link.Url', 'main')">@link.Name</a></li>
     }
