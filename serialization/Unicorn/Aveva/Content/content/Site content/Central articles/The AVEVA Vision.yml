@@ -1,0 +1,25 @@
+﻿---
+ID: "8a8bdef2-6400-45ff-ae71-d554e6871da4"
+Parent: "22481594-1eb0-4b2c-86f5-fe066ba3d162"
+Template: "0dda8ad0-27b0-49f1-acd1-8bcf0d9e9cf2"
+Path: /sitecore/content/Site content/Central articles/The AVEVA Vision
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160601T132205Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: "609f6fbc-5e0a-434d-a69c-299392199e2b"
+      Hint: Topic
+      Value: The AVEVA Vision
+    - ID: "d25693a5-813e-4e5b-ba8c-3b96521bdcdb"
+      Hint: Content
+      Value: |
+        <p><strong>Always the leading innovator and our customers' most trusted partner</strong> </p>
+        <p>AVEVA has been the world's leading engineering software provider to the plant, power and marine industries for over 45 years. We have achieved this by&nbsp;continual and visionary technical innovation, working in close partnership with many of the world's leading engineering companies.&nbsp;As a result, AVEVA is trusted to deliver not only the most powerful software tools available, but to put its customers' long-term business interests at the heart of its technology development.</p>

@@ -1,8 +1,8 @@
 ﻿---
-ID: "b816c9fe-5193-42f4-a3c7-a2ecaa7e1955"
-Parent: "ce6b91cd-3fec-4b88-ba07-679b108a687a"
+ID: "5eaf29ca-587d-4d96-9123-add63b439bde"
+Parent: "dda8e82f-2914-406d-a70f-64e526fef33c"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Aveva/Navigation Item/Navigation/Name
+Path: /sitecore/templates/Aveva/Menu/Menu/Menu item name
 DB: master
 SharedFields:
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
@@ -15,4 +15,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20160523T153728Z
+      Value: 20160601T104954Z

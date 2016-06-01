@@ -1,5 +1,4 @@
 ﻿using Aveva.Glass.Models;
-using Aveva.Models;
 using Aveva.Models.Content;
 using Aveva.Services;
 using System.Collections.Generic;
@@ -11,15 +10,15 @@ namespace Aveva.Web.Controllers
     {
         public ActionResult LeftColumn()
         {
-            ContentViewModel contentModel = CommonMapper.MapItem<ContentViewModel, ContentGlassModel>(Sitecore.Context.Item);
-            List<BaseViewModel> model = CommonMapper.MapContent(contentModel.LeftColumn);
+            ContentGlassModel contentGlassModel = CommonMapper.MapItem<ContentGlassModel>(Sitecore.Context.Item);
+            List<BaseViewModel> model = CommonMapper.MapContent(contentGlassModel.LeftColumn);
             return View("AsideColumn", model);
         }
 
         public ActionResult RightColumn()
         {
-            ContentViewModel contentModel = CommonMapper.MapItem<ContentViewModel, ContentGlassModel>(Sitecore.Context.Item);
-            List<BaseViewModel> model = CommonMapper.MapContent(contentModel.RightColumn);
+            ContentGlassModel contentGlassModel = CommonMapper.MapItem<ContentGlassModel>(Sitecore.Context.Item);
+            List<BaseViewModel> model = CommonMapper.MapContent(contentGlassModel.RightColumn);
             return View("AsideColumn", model);
         }
     }

@@ -1,0 +1,23 @@
+﻿---
+ID: "e44d7133-8a1a-4ce3-ab1a-19aef689ed50"
+Parent: "22481594-1eb0-4b2c-86f5-fe066ba3d162"
+Template: "0dda8ad0-27b0-49f1-acd1-8bcf0d9e9cf2"
+Path: /sitecore/content/Site content/Central articles/AVEVA Mission
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160601T132250Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: "609f6fbc-5e0a-434d-a69c-299392199e2b"
+      Hint: Topic
+      Value: AVEVA's Mission
+    - ID: "d25693a5-813e-4e5b-ba8c-3b96521bdcdb"
+      Hint: Content
+      Value: <p>AVEVA's mission is to enable the creation and management of complex digital assets, allowing our customers to work globally with less risk, shorter lead times and greater business efficiency throughout the lifecycle of their&nbsp;physical assets.</p>

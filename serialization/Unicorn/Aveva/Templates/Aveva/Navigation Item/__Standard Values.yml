@@ -50,9 +50,6 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20160524T095254Z
-    - ID: "359f846e-0435-411f-b04d-89f07e598d15"
-      Hint: Name
-      Value: $name
-    - ID: "b816c9fe-5193-42f4-a3c7-a2ecaa7e1955"
-      Hint: Name
+    - ID: "5eaf29ca-587d-4d96-9123-add63b439bde"
+      Hint: Menu item name
       Value: $name

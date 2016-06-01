@@ -1,21 +1,20 @@
-﻿using Glass.Mapper.Sc.Configuration;
-using Glass.Mapper.Sc.Configuration.Attributes;
-using System;
+﻿using System;
 using System.Collections.Generic;
+using Glass.Mapper.Sc.Configuration;
+using Glass.Mapper.Sc.Configuration.Attributes;
 
 namespace Aveva.Glass.Models
 {
-    [Serializable]
-    [SitecoreType(EnforceTemplate = SitecoreEnforceTemplate.TemplateAndBase, TemplateId = Constants.TemplatesIDs.DropdownItem, AutoMap = true)]
+    [SitecoreType(TemplateId = Constants.TemplatesIDs.MainContentItem, EnforceTemplate = SitecoreEnforceTemplate.TemplateAndBase, AutoMap = true)]
     public class ContentGlassModel
     {
-        [SitecoreField(Constants.Fields.DropdownItem.LeftColumn)]
+        [SitecoreField(Constants.Fields.MainContentItem.LeftColumn)]
         public virtual IEnumerable<Guid> LeftColumn { get; set; }
 
-        [SitecoreField(Constants.Fields.DropdownItem.CentralColumn)]
+        [SitecoreField(Constants.Fields.MainContentItem.CentralColumn)]
         public virtual IEnumerable<Guid> CentralColumn { get; set; }
 
-        [SitecoreField(Constants.Fields.DropdownItem.RightColumn)]
+        [SitecoreField(Constants.Fields.MainContentItem.RightColumn)]
         public virtual IEnumerable<Guid> RightColumn { get; set; }
     }
 }

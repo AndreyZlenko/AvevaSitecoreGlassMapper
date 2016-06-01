@@ -9,14 +9,14 @@ namespace Aveva.Web.Controllers
     {
         public ActionResult GetHeader()
         {
-            HeaderViewModel model = CommonMapper.MapItem<HeaderViewModel, HeaderGlassModel>(Sitecore.Context.Item);
-            return View(model);
+            HeaderGlassModel glassModel = CommonMapper.MapItem<HeaderGlassModel>(Sitecore.Context.Item);
+            return View(new HeaderViewModel(glassModel));
         }
 
         public ActionResult GetFooter()
         {
-            FooterViewModel model = CommonMapper.MapItem<FooterViewModel, FooterGlassModel>(Sitecore.Context.Item);
-            return View(model);
+            FooterGlassModel glassModel = CommonMapper.MapItem<FooterGlassModel>(Sitecore.Context.Item);
+            return View(new FooterViewModel(glassModel));
         }
     }
 }

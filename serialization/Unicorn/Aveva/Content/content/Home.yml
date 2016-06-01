@@ -13,29 +13,22 @@ Languages:
   Versions:
   - Version: 1
     Fields:
-    - ID: "0e1b6d97-513a-42d3-9364-afd70da58ab2"
-      Hint: RightColumn
-      Type: Treelist
-      Value: |
-        {D8C63EEA-3B4D-401D-96AB-D746CE291C60}
-        {5905D2A3-8591-4FAD-BDFE-63D495291491}
-        {2B611BFA-EB10-4D6E-96C3-2C36720A7DCB}
-        {EFA17A52-9514-4046-9798-F05B5D9A5231}
     - ID: "1b7fbe2d-2acd-4f78-a35e-f1d0346a22e7"
       Hint: Date
       Value: "© 2007 - 2015"
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20160524T101022Z
-    - ID: "43030e24-de97-43fe-a950-1171330b5669"
-      Hint: LeftColumn
+    - ID: "3d927be9-093d-421e-b754-bc504e30c812"
+      Hint: Head Image
+      Value: "<image mediaid=\"{0FF1E1C4-F475-4F46-B778-B3D92E6756DF}\" alt=\"Home\" height=\"\" width=\"\" hspace=\"\" vspace=\"\" />"
+    - ID: "5f97d9f0-5612-413d-9631-2bcfafe7e12f"
+      Hint: Central Column
       Type: Treelist
       Value: |
-        {C0F57357-BF4F-4621-B25A-F359148AFDE1}
-        {55E21BDF-F7FF-4CBA-9371-5E5AD57A8ECF}
-        {19A2E9D3-A537-4EB2-891A-58010C617AEC}
-        {13601E16-BB96-470C-A919-82322C636149}
-        {B94846B3-779A-49DD-B9AD-AACD0ED1FCA3}
+        {23816F70-128F-4C25-8842-235D264ACA63}
+        {7DECDCDF-680D-45E1-BEB6-5FCCFBC39BA8}
+        {661696BB-8162-440B-9114-42D865390ECF}
     - ID: "62b0fd80-2fb0-4f70-838f-588556bcf512"
       Hint: Logo
       Value: "<image mediaid=\"{0D8E3214-6956-462C-8678-A297E9D2C071}\" alt=\"logo\" height=\"\" width=\"\" hspace=\"\" vspace=\"\" />"
@@ -45,13 +38,19 @@ Languages:
     - ID: "6c01b90b-25b2-4f17-8295-4f2de9a23407"
       Hint: Contacts
       Value: "AVEVA Group plc, High Cross, Madingley Road, Cambridge, CB3 0HB, UK +44(0)1223 556655 Reg. No: 2937296"
-    - ID: "9a7c59e0-910c-4ea4-8699-c9c600252809"
-      Hint: HeadImage
-      Value: "<image mediaid=\"{0FF1E1C4-F475-4F46-B778-B3D92E6756DF}\" alt=\"AVEVA in the Process Plant Industry\" height=\"\" width=\"\" hspace=\"\" vspace=\"\" />"
-    - ID: "faa01c3d-f253-4633-a562-b1c1f530d678"
-      Hint: CentralColumn
+    - ID: "88973350-625f-4a90-9d6d-43ee6d581a41"
+      Hint: Left Column
       Type: Treelist
       Value: |
-        {23816F70-128F-4C25-8842-235D264ACA63}
-        {7DECDCDF-680D-45E1-BEB6-5FCCFBC39BA8}
-        {661696BB-8162-440B-9114-42D865390ECF}
+        {C0F57357-BF4F-4621-B25A-F359148AFDE1}
+        {55E21BDF-F7FF-4CBA-9371-5E5AD57A8ECF}
+        {19A2E9D3-A537-4EB2-891A-58010C617AEC}
+        {5BC0AFE2-5EB2-48F8-8D59-5EBA63B34AED}
+    - ID: "e839fac7-0eb7-4511-9065-fed4a187a8d0"
+      Hint: Right Column
+      Type: Treelist
+      Value: |
+        {D8C63EEA-3B4D-401D-96AB-D746CE291C60}
+        {5905D2A3-8591-4FAD-BDFE-63D495291491}
+        {2B611BFA-EB10-4D6E-96C3-2C36720A7DCB}
+        {EFA17A52-9514-4046-9798-F05B5D9A5231}

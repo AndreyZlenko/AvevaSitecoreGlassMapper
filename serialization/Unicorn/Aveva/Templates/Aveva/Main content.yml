@@ -1,23 +1,17 @@
 ﻿---
-ID: "b1a74225-a7c6-4f8e-9398-ac656504f554"
+ID: "7b2f44be-5d2c-4e20-979b-6f9dd9a44b15"
 Parent: "012ed80a-18b8-4624-a266-bd4f7220113c"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
-Path: /sitecore/templates/Aveva/Navigation Item
+Path: /sitecore/templates/Aveva/Main content
 DB: master
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
-  Value: Applications/32x32/folder_green.png
+  Value: Applications/32x32/documents.png
 - ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
   Hint: __Base template
   Type: tree list
-  Value: |
-    {1930BBEB-7805-471A-A3BE-4858AC7CF696}
-    {7B2F44BE-5D2C-4E20-979B-6F9DD9A44B15}
-    {E703AAD7-EC92-4951-9D5A-AD1329D1A67C}
-- ID: "f7d48a55-2158-4f02-9356-756654404f73"
-  Hint: __Standard values
-  Value: "{31E3D0A0-A301-4985-8DB5-64EB86309AA1}"
+  Value: "{1930BBEB-7805-471A-A3BE-4858AC7CF696}"
 Languages:
 - Language: en
   Versions:
@@ -25,7 +19,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20160523T152721Z
+      Value: 20160601T103456Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: sitecore\admin

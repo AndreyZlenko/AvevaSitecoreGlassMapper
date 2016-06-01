@@ -9,31 +9,28 @@ Languages:
   Versions:
   - Version: 1
     Fields:
-    - ID: "0e1b6d97-513a-42d3-9364-afd70da58ab2"
-      Hint: RightColumn
-      Type: Treelist
-      Value: |
-        {EFA17A52-9514-4046-9798-F05B5D9A5231}
-        {557747FA-2D23-4E5C-B0DB-899B9DEE03C4}
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20160524T134608Z
-    - ID: "359f846e-0435-411f-b04d-89f07e598d15"
-      Hint: Name
+    - ID: "3d927be9-093d-421e-b754-bc504e30c812"
+      Hint: Head Image
+      Value: "<image mediaid=\"{ED6409FC-8CE2-40D7-B530-8299A80374CF}\" alt=\"About\" height=\"\" width=\"\" hspace=\"\" vspace=\"\" />"
+    - ID: "5eaf29ca-587d-4d96-9123-add63b439bde"
+      Hint: Menu item name
       Value: About
-    - ID: "43030e24-de97-43fe-a950-1171330b5669"
-      Hint: LeftColumn
-      Type: Treelist
-      Value: "{85CF4A18-EF03-4246-8A64-6EAC57E8E853}"
-    - ID: "9a7c59e0-910c-4ea4-8699-c9c600252809"
-      Hint: HeadImage
-      Value: "<image mediaid=\"{ED6409FC-8CE2-40D7-B530-8299A80374CF}\" alt=\"12345\" height=\"\" width=\"\" hspace=\"\" vspace=\"\" />"
-    - ID: "b816c9fe-5193-42f4-a3c7-a2ecaa7e1955"
-      Hint: Name
-      Value: About
-    - ID: "faa01c3d-f253-4633-a562-b1c1f530d678"
-      Hint: CentralColumn
+    - ID: "5f97d9f0-5612-413d-9631-2bcfafe7e12f"
+      Hint: Central Column
       Type: Treelist
       Value: |
-        {278A00F5-3C99-48E0-B304-69F75AC3339C}
-        {23816F70-128F-4C25-8842-235D264ACA63}
+        {8A8BDEF2-6400-45FF-AE71-D554E6871DA4}
+        {E44D7133-8A1A-4CE3-AB1A-19AEF689ED50}
+    - ID: "88973350-625f-4a90-9d6d-43ee6d581a41"
+      Hint: Left Column
+      Type: Treelist
+      Value: "{5BC0AFE2-5EB2-48F8-8D59-5EBA63B34AED}"
+    - ID: "e839fac7-0eb7-4511-9065-fed4a187a8d0"
+      Hint: Right Column
+      Type: Treelist
+      Value: |
+        {B786BB1D-85A5-4B14-93ED-5E42986DB681}
+        {EC030486-A36E-4C6A-9E9D-92865D7902F4}

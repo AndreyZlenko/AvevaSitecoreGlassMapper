@@ -1,9 +1,7 @@
 ﻿using Glass.Mapper.Sc.Configuration.Attributes;
-using System;
 
 namespace Aveva.Glass.Models
 {
-    [Serializable]
     [SitecoreType(TemplateId = Constants.TemplatesIDs.SiteRootItem, AutoMap = true)]
     public class FooterGlassModel
     {

@@ -13,8 +13,8 @@ namespace Aveva.Web.Controllers
     {
         public ActionResult Header()
         {
-            HeaderContentViewModel model = CommonMapper.MapItem<HeaderContentViewModel, HeaderContentGlassModel>(Sitecore.Context.Item);
-            return View(model);
+            HeaderContentGlassModel glassModel = CommonMapper.MapItem<HeaderContentGlassModel>(Sitecore.Context.Item);
+            return View(new HeaderContentViewModel(glassModel));
         }
 
         public ActionResult LeftNavigationBar()
@@ -23,15 +23,14 @@ namespace Aveva.Web.Controllers
             if (item.TemplateID == ID.Parse(Constants.TemplatesIDs.DropdownItem))
                 item = item.Parent;
 
-            ItemLinkViewModel model = CommonMapper.MapItem<ItemLinkViewModel, ItemLinkGlassModel>(item);
-
-            return View(model);
+            ItemLinkGlassModel glassModel = CommonMapper.MapItem<ItemLinkGlassModel>(item);
+            return View(new ItemLinkViewModel(glassModel));
         }
 
         public ActionResult CentralColumn()
         {
-            ContentViewModel contentModel = CommonMapper.MapItem<ContentViewModel, ContentGlassModel>(Sitecore.Context.Item);
-            List<BaseViewModel> model = CommonMapper.MapContent(contentModel.CentralColumn);
+            ContentGlassModel contentGlassModel = CommonMapper.MapItem<ContentGlassModel>(Sitecore.Context.Item);
+            List<BaseViewModel> model = CommonMapper.MapContent(contentGlassModel.CentralColumn);
             return View(model);
         }
     }

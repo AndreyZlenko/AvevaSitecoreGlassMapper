@@ -1,8 +1,8 @@
 ﻿---
-ID: "0e1b6d97-513a-42d3-9364-afd70da58ab2"
-Parent: "bc470f9c-9a3d-46f4-a75f-65005b0c82da"
+ID: "e839fac7-0eb7-4511-9065-fed4a187a8d0"
+Parent: "297344fd-fa97-4140-8d0d-6f8933f91e55"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Aveva/Dropdown Item/Content/RightColumn
+Path: /sitecore/templates/Aveva/Main content/Content/Right Column
 DB: master
 SharedFields:
 - ID: "1eb8ae32-e190-44a6-968d-ed904c794ebf"
@@ -13,7 +13,7 @@ SharedFields:
   Value: Treelist
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 300
+  Value: 400
 Languages:
 - Language: en
   Versions:
@@ -21,4 +21,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20160525T114406Z
+      Value: 20160601T104041Z

@@ -49,7 +49,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ContentViewModel.cs" />
     <Compile Include="Content\BaseViewModel.cs" />
     <Compile Include="Content\BoxViewModel.cs" />
     <Compile Include="Content\ContentType.cs" />

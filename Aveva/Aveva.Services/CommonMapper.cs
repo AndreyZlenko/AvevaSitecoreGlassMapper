@@ -13,12 +13,22 @@ namespace Aveva.Services
        
         #region Common mapper
 
-        public static TViewModel MapItem<TViewModel, TGlassModel>(Item item)
-            where TViewModel : class
-            where TGlassModel : class
+        public static TGlassModel MapItem<TGlassModel>(Item item) where TGlassModel : class
         {
             SitecoreContext context = new SitecoreContext();
-            return (TViewModel)Activator.CreateInstance(typeof(TViewModel), new object[] { context.GetItem<TGlassModel>(item.ID.Guid) });
+            return context.GetItem<TGlassModel>(item.ID.Guid);
+        }
+
+        public static TGlassModel MapItem<TGlassModel>(Guid guid) where TGlassModel : class
+        {
+            SitecoreContext context = new SitecoreContext();
+            return context.GetItem<TGlassModel>(guid);
+        }
+
+        public static TGlassModel MapItem<TGlassModel>(string itemPath) where TGlassModel : class
+        {
+            SitecoreContext context = new SitecoreContext();
+            return context.GetItem<TGlassModel>(itemPath);
         }
 
         #endregion

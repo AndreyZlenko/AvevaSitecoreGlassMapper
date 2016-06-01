@@ -1,13 +1,9 @@
 ﻿---
-ID: "bc470f9c-9a3d-46f4-a75f-65005b0c82da"
-Parent: "c6a06bbf-b6b9-407c-b9b0-02a4ae4dc389"
+ID: "297344fd-fa97-4140-8d0d-6f8933f91e55"
+Parent: "7b2f44be-5d2c-4e20-979b-6f9dd9a44b15"
 Template: "e269fbb5-3750-427a-9149-7aa950b49301"
-Path: /sitecore/templates/Aveva/Dropdown Item/Content
+Path: /sitecore/templates/Aveva/Main content/Content
 DB: master
-SharedFields:
-- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
-  Hint: __Sortorder
-  Value: 200
 Languages:
 - Language: en
   Versions:
@@ -15,7 +11,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20160525T114406Z
+      Value: 20160601T103812Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: sitecore\admin

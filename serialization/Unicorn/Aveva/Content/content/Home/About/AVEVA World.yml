@@ -12,9 +12,9 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20160524T135215Z
-    - ID: "359f846e-0435-411f-b04d-89f07e598d15"
-      Hint: Name
+    - ID: "3d927be9-093d-421e-b754-bc504e30c812"
+      Hint: Head Image
+      Value: "<image mediaid=\"{2EEA3983-B580-4359-BF76-EF7A9907C56A}\" alt=\"AVEVA World\" height=\"\" width=\"\" hspace=\"\" vspace=\"\" />"
+    - ID: "5eaf29ca-587d-4d96-9123-add63b439bde"
+      Hint: Menu item name
       Value: AVEVA World
-    - ID: "9a7c59e0-910c-4ea4-8699-c9c600252809"
-      Hint: HeadImage
-      Value: "<image mediaid=\"{2EEA3983-B580-4359-BF76-EF7A9907C56A}\" alt=\"Aveve world\" height=\"\" width=\"\" hspace=\"\" vspace=\"\" />"
